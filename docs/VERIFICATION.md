@@ -26,3 +26,6 @@ Runtime versions: NumPy 2.5.4, SciPy 1.18.1, pandas 3.1.0, Matplotlib 3.11.2,
 openpyxl 3.1.5. The CI verifies standalone operation plus a separate explicit companion test.
 See GitHub Actions for the actual hosted run conclusion. No independent experimental or
 manufacturer dataset is included, and no industrial validation accuracy is claimed.
+
+The v0.1.1 wheel was installed in a separate clean environment. CSV calibration and Excel CLI
+report export executed successfully; preserved upstream license is included in the wheel.
