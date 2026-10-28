@@ -1,0 +1,6 @@
+recursive-include docs *.md *.txt
+recursive-include examples *.py
+recursive-include scripts *.py
+recursive-include third_party *.txt
+recursive-include data *.csv *.xlsx
+recursive-include example-report *.csv *.json *.md *.png

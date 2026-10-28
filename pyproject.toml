@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "engineering-model-calibration"
+version = "0.1.0"
+description = "Auditable calibration and held-out validation of engineering models"
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE", "NOTICE.md", "third_party/*"]
+dependencies = ["numpy>=2,<3", "scipy>=1.14,<2", "pandas>=2.2,<4", "matplotlib>=3.9,<4", "openpyxl>=3.1,<4"]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10", "ruff>=0.9,<1", "build>=1.2,<2"]
+integration = ["plate-heat-exchanger-calculator @ git+https://github.com/grenli415/plate-heat-exchanger-calculator.git@v0.1.0"]
+
+[project.scripts]
+engineering-calibrate = "engcal.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
