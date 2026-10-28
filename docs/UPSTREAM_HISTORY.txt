@@ -1,0 +1,36 @@
+610150508f572fd77dea646b9bb47c15294b10c3 2026-08-26T13:29:10+05:30 porcelaincode Add project scaffolding: packaging, CI, license, tooling config
+186979e4795ba20f1c123702865d65a72158c23f 2026-08-26T13:29:10+05:30 porcelaincode Add exception and warning hierarchy
+19ad935fa5905692ac120274382e46ffd3f6d033 2026-08-26T13:29:10+05:30 porcelaincode Add FlightData container and CSV/Parquet loading
+554db938da049a27f3981244b8d1030ae44d13d9 2026-08-26T13:29:10+05:30 porcelaincode Add Model abstraction with solve_ivp simulation on the measurement grid
+df92f5b3d3b40f382897bcc36cbe781300289633 2026-08-26T13:29:10+05:30 porcelaincode Add output-error parameter estimation with covariance and identifiability diagnostics
+a3bfddb25d88ea2067019b8baa37027df20a4c73 2026-08-26T13:29:10+05:30 porcelaincode Add model-vs-data validation metrics with whiteness and cross-correlation tests
+e2754e04d2e82dde32f127509844d254eabd2b03 2026-08-26T13:29:10+05:30 porcelaincode Add Monte Carlo propagation of parameter uncertainty
+e7f14c87fb3ee1c29e860259cc65fbf347214558 2026-08-26T13:29:10+05:30 porcelaincode Add Markdown engineering report generation
+02770c6bb2acf3eef59db0a9cef540eba6a9ee1a 2026-08-26T13:29:10+05:30 porcelaincode Add public API, end-to-end truth-recovery test, and README example
+ccad30c049f6685caa3e468cfef594c1bdd66e67 2026-08-26T13:29:37+05:30 porcelaincode Add FilterError exception
+55e139a488cac08da25d951b23b4136ef9f77fd2 2026-08-26T13:32:48+05:30 porcelaincode Add EKF/UKF state estimation with RTS smoothing
+ce7c30b7f03c989874a7a097c8b4226b89f876cc 2026-08-26T13:34:38+05:30 porcelaincode Add filter-error identification method
+127273c1422d9c7cab6e07acdaef755109d24039 2026-08-26T13:36:44+05:30 porcelaincode Add sensitivity analysis with Fisher information and Cramer-Rao bounds
+788b8dcb97e98292f3b283637b7664f198963125 2026-08-26T13:44:26+05:30 porcelaincode Add frequency-response validation with coherence-weighted mismatch
+e7336a57ae67e913bcb2f20139a9592a80342692 2026-08-26T13:50:21+05:30 porcelaincode Bump to 0.2.0: changelog and README for filters, sensitivity, frequency response
+f838b8ff7c7640c93ed576cd85a28932b51f4db5 2026-08-26T14:00:52+05:30 porcelaincode Add InferenceError, jax extra, and 0.3.0 version bump
+4d8ef9720028d21a1f480c832a8d09da52e2541e 2026-08-26T14:41:55+05:30 porcelaincode Add Bayesian inference with affine-invariant ensemble sampler
+7435613cf00a92dba433b12f38b47efe385f557b 2026-08-26T14:41:55+05:30 porcelaincode Integrate posterior results across validation, propagation, and reports
+f6c7229a16f05aec3b15abba82d7618915f27891 2026-08-26T14:41:55+05:30 porcelaincode Add optional JAX autodiff backend with exact Jacobians
+20b96ed40dbc7316ce805da7620e4cd84f17b0f0 2026-08-26T14:56:03+05:30 porcelaincode Add 0.3.0 changelog, README sections, and Bayesian integration test
+353d2c12ce1ea4e8bb112f0d560a27a37a4dfefb 2026-08-26T15:23:59+05:30 porcelaincode Add SimulatorModel protocol so external simulators plug into the pipeline
+5278609dccf0333eb2d9c67cd08297e2c979c877 2026-08-26T15:31:01+05:30 porcelaincode Add JSBSim adapter with property mapping and output-file parser
+de288ed4f2569353ed0fb702e9d8c4e4a2c96ef6 2026-08-26T15:34:33+05:30 porcelaincode Add RocketPy adapter with builder-callback parameterization
+b02dec3e4654f998a7e2de545fbad7fe8e7f695e 2026-08-26T15:36:34+05:30 porcelaincode Add AeroSandbox adapter producing a genuine longitudinal Model
+cd368fadd4d78fb53d38e5ec0475a745eeddf9c0 2026-08-26T15:36:57+05:30 porcelaincode Add AeroSandbox adapter producing a genuine longitudinal Model
+88a72fdde8c66c34abebf39929cc694815b070f0 2026-08-26T15:43:59+05:30 porcelaincode Bump to 0.4.0: changelog and README for simulator adapters
+bf1659c4f14f6007b892593e3faf8f10a4866f8d 2026-08-26T16:04:06+05:30 porcelaincode Add optimal experiment design with maneuver families and D-/A-criteria
+d1ce4418b056ad4c65a0b9b6017e1f7f28d9c794 2026-08-26T16:04:06+05:30 porcelaincode Add experiment-design report section and public exports
+69f4affbe80f32ac65eb16c9a6a2536efcb3eb74 2026-08-26T16:22:38+05:30 porcelaincode Bump to 0.5.0: changelog, README, and integration test for experiment design
+3cad87b1bb89ba408246ef3622b9716c479f144e 2026-08-26T16:24:55+05:30 porcelaincode Add tag-driven PyPI release workflow with trusted publishing
+8845767c516fb7c31329120e4bc4769d4654ab05 2026-08-26T16:30:41+05:30 porcelaincode Restructure CI: single checks job, focused test matrix, unpinned mypy target
+be5a958ea9a2a90b56fb06a226c75b57090a6f01 2026-08-26T16:30:41+05:30 porcelaincode Restructure README: badges, validated-accuracy table, API reference, references
+a65901cf491fce3fb41204d6908392c9785db563 2026-08-26T16:36:07+05:30 porcelaincode Fix CI: format README code fences, heredoc wheel smoke test
+c24e0b2a26a9d8fdb2f70a75a6ddf3ad858838e8 2026-08-26T16:44:15+05:30 porcelaincode Gate releases on the fast test subset; mark long statistical tests slow
+885b5529daced612bb9ec6d9b7df232483e4ab32 2026-08-26T16:54:29+05:30 porcelaincode chore: AGENTS.md doc
+3c876ee2068a672536b16abb009cce8c2c55052f 2026-08-26T17:48:53+05:30 porcelaincode Speed up CI with pytest-xdist; fix zero-nominal JSBSim fixture and JAX x64 setup
